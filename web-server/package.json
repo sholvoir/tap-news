@@ -1,0 +1,23 @@
+{
+  "name": "top-news-web-server",
+  "version": "1.0.0",
+  "description": "Top News Web Server",
+  "main": "server.js",
+  "author": "Shaw He",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jayson": "^2.0.5",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.10",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "validator": "^9.4.1"
+  }
+}

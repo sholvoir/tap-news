@@ -1,0 +1,38 @@
+Q1: Name few limitations of NoSQL database?
+A1: Complex query, transaction process, ACID, 
+
+Q2: What is eventually consistent database?
+A2: Eventual consistency is a consistency model used in distributed computing to achieve high 
+availability that informally guarantees that, if no new updates are made to a given data item, 
+eventually all accesses to that item will return the last updated value.
+
+Q3: Which is NOT the concept in MongoDB?
+    A. Collection
+    B. Outer Join
+    C. Index
+    D. Document
+    E. Transaction
+A3: BE
+
+Q4: Why message queue is asynchronous?
+A4: A message queue is a way for applications and discrete components to send messages between one 
+another in order to reliably communicate. This interface connects producers which create messages 
+and the consumers which then process them. When a producer produce a message it will not need to wait 
+for consumers to get it or process it. Maybe the producer do not know who is the consumer.
+
+Q5: Which is the feature of SOA? 
+    A. All teams expose their data and functionality through service interfaces. 
+    B. Teams own services, from code, deployment to maintenance. 
+    C. Teams must communicate through service interfaces. 
+    D. Services should be functional independent (no dependencies).
+    E. All service interfaces, without exception, must be designed from the ground up to be externalizable.
+    F. It doesn’t matter what technology each service use. 
+A5: ACEF
+
+Q6: Describe the major difference between REST and RPC? 
+A6: REST is not a framework, a protocol, or a communication format.  REST is an architecture, a 
+structured way of representing a software solution - specifically, exposing aspects of a solution 
+to a set of remote client-consumers. The central tenet of REST is that these aspects of a solution 
+can be modeled as resources which the client can consume. This resource-oriented thinking, and not 
+the implementation details of how one communicates between client and server, is what REST is actually 
+all about. This is the key difference that separates actual RESTful APIs from RPC based on HTTP verbs.

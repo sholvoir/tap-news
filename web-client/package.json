@@ -1,0 +1,41 @@
+{
+  "name": "top-news",
+  "version": "1.0.0",
+  "description": "Top News",
+  "main": "index.js",
+  "author": "Shaw He",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --open --history-api-fallback",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "clean": "rm dist/*"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^1.0.0-beta.42",
+    "html-webpack-plugin": "^3.0.6",
+    "lodash": "^4.17.5",
+    "material-ui": "^1.0.0-beta.40",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

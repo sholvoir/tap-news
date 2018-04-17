@@ -1,0 +1,31 @@
+Q1: What is Ajax? Why do we use Ajax?
+A1: (1)Ajax (Asynchronous JavaScript And XML) is  a set of Web development techniques using many Web 
+technologies on the client side to create asynchronous Web applications. With Ajax, Web applications 
+can send and retrieve data from a server asynchronously (in the background) without interfering with the 
+display and behavior of the existing page.
+(2)Improved user experience, reduced bandwidth usage, increased speed, supports asynchronous processing
+and increased compatibility.
+
+Q2: What is client-side MVC framework? 
+A2: It's a JavaScript Model-View-Controler framework that run in client-side browser.
+
+Q3: Which is NOT the new feature of ECMA2015?
+    A. Arrow function
+    B. Class keyword
+    C. Variable block scoping 
+    D. Let and Const
+    E. Object prototype
+A3: E
+
+Q4: What’s the execution sequence of following functions of React Component?
+    A. render()
+    B. componentDidUpdate()
+    C. componentWillUnmount()
+    D. componentDidMount()
+    E. componentWillUpdate()
+    F. componentWillMount()
+    G. constructor()
+A4: GFADEABC
+
+Q5: In which case we should call setState()?
+A5: Always if you want to change the state.

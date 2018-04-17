@@ -1,0 +1,35 @@
+Q1: What is overfitting in machine learning?
+A1: Too more training can let model overfit for the training data but not fit for test/real data.
+
+Q2: How to get a good result?
+    A. Use simple model if possible.
+    B. Use generic (more parameters) model if possible.
+    C. Use less training data.
+    D. Use more training data.
+    E. Use less training steps.
+    F. Use more training steps.
+    G. Use larger learning rate.
+    H. Use smaller learning rate.
+    I. Use simple loss function.
+    J. Use sophisticated loss function.
+    K. Split data into two groups - use one for training, the other one for testing.
+A2: AFHIK
+
+Q3: What is one-hot encoding? Why do we use one-hot encoding in machine learning?
+A3: One hot encoding is a process by which categorical variables are converted into a form that could 
+    be provided to ML algorithms to do a better job in prediction.
+    Remove the relationship of number (such as we use 1 to encode 'cat')
+
+Q4: Why are neural networks non-linear?
+A4: The purpose of the activation function is to introduce non-linearity into the network.
+    Non-linear means that the output cannot be reproduced from a linear combination of the inputs.
+
+Q5: Why it is difficult to train neural networks? 
+    A. Supervised learning
+    B. Unsupervised learning
+    C. Reinforcement learning
+A5: C
+
+Q6: What’s the execution result of the following Tensorflow code and why?
+A6: Tensor("MatMul:0", shape=(1, 1), dtype=float32)
+    Because product is a function and have not execute.
